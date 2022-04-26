@@ -37,7 +37,7 @@ const Header = ({ farmId, setFarmId }: Props) => {
             <Flex as="a" sx={{ alignItems: "center", flexDirection: "column" }}>
               <Flex sx={{ alignItems: "center" }}>
                 <Text as="h1" variant="headingSpecial" ml=".4rem">
-                  NFT
+                  STAKE
                 </Text>
 
                 <img
@@ -49,7 +49,7 @@ const Header = ({ farmId, setFarmId }: Props) => {
                 />
 
                 <Text as="h1" variant="headingSpecial" ml=".4rem">
-                  STAKE
+                  CS
                 </Text>
               </Flex>
               {/* <Text

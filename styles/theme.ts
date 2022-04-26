@@ -169,7 +169,7 @@ const theme: Theme = {
       lineHeight: "body",
       fontSize: "2.2rem",
       fontFamily:
-        'PressStart2P-Regular, monospace, AvertaStd-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+        'Roboto, PressStart2P-Regular, monospace, AvertaStd-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif',
       fontWeight: 900,
     },
     heading2: {
