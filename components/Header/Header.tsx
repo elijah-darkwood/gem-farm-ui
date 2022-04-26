@@ -49,7 +49,7 @@ const Header = ({ farmId, setFarmId }: Props) => {
                 />
 
                 <Text as="h1" variant="headingSpecial" ml=".4rem">
-                  STAKING
+                  STAKE
                 </Text>
               </Flex>
               {/* <Text
