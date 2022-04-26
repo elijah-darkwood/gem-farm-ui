@@ -36,9 +36,6 @@ const Header = ({ farmId, setFarmId }: Props) => {
           <Link href="/" passHref>
             <Flex as="a" sx={{ alignItems: "center", flexDirection: "column" }}>
               <Flex sx={{ alignItems: "center" }}>
-                <Text as="h1" variant="headingSpecial" ml=".4rem">
-                  Crypto
-                </Text>
 
                 <img
                   sx={{
@@ -47,10 +44,15 @@ const Header = ({ farmId, setFarmId }: Props) => {
                   src="/images/gemtransparent.gif"
                   alt="Gemworks"
                 />
-
+                
                 <Text as="h1" variant="headingSpecial" ml=".4rem">
-                  Shards
+                  CryptoShards
                 </Text>
+
+                {/* <Text as="h1" variant="headingSpecial" ml=".4rem">
+                  Shards
+                </Text> */}
+
               </Flex>
               {/* <Text
                 sx={{
