@@ -224,7 +224,7 @@ const useGemFarmStaking = (farmId: string) => {
     if (!gemFarmClient || !gemBankClient)
       throw new Error("No Gem Bank client has been initialized.")
 
-    setFeedbackStatus("Depositing Gems to the vault...")
+    setFeedbackStatus("Depositing NFTs to the vault...")
     for (const nft of selectedWalletItems) {
       const creator = new PublicKey(
         nft.onchainMetadata.data.creators?.[0].address || ""
@@ -250,7 +250,7 @@ const useGemFarmStaking = (farmId: string) => {
     if (!gemFarmClient || !gemBankClient)
       throw new Error("No Gem Bank client has been initialized.")
 
-    setFeedbackStatus("Withdrawing Gems...")
+    setFeedbackStatus("Withdrawing NFTs...")
     for (const nft of selectedVaultItems) {
       await withdrawGem(new PublicKey(nft.onchainMetadata.mint))
     }
@@ -337,7 +337,7 @@ const useGemFarmStaking = (farmId: string) => {
     if (!gemFarmClient || !gemBankClient || !farmerAccount.identity) return true
 
     console.log("[Staking Hook] Refreshing farmer...")
-    setFeedbackStatus("Refreshing rewards...")
+    setFeedbackStatus("Refreshing...")
     const { txSig } = await gemFarmClient.refreshFarmerWallet(
       new PublicKey(farmId),
       farmerAccount.identity

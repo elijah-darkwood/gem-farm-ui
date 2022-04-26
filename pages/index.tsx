@@ -79,7 +79,7 @@ const StakePage = () => {
             }}
             onClick={handleInitStakingButtonClick}
           >
-            Init staking account
+            Initialize staking account
           </Button>
         ) : (
           <>
@@ -424,7 +424,7 @@ const StakePage = () => {
                             alignSelf: "stretch",
                           }}
                         >
-                          <Text>There are no NFTs on your vault.</Text>
+                          <Text>There are no NFTs in your vault.</Text>
                         </Flex>
                       )
                     ) : /** No vaultNFTs and public key, means it is loading */
