@@ -50,7 +50,7 @@ const StakePage = () => {
           padding: "0 1.6rem",
         }}
       >
-        <Heading>Welcome to your staking account</Heading>
+        <Heading>Your staking account</Heading>
         <Text>Below you can stake, unstake and collect rewards.</Text>
 
         {!publicKey ? (
@@ -79,7 +79,7 @@ const StakePage = () => {
             }}
             onClick={handleInitStakingButtonClick}
           >
-            Initialize staking account
+            Init staking account
           </Button>
         ) : (
           <>
@@ -304,7 +304,7 @@ const StakePage = () => {
                         alignSelf: "stretch",
                       }}
                     >
-                      <Text>There are no eligible NFTs on your wallet.</Text>
+                      <Text>There are no Elven NFTs on your wallet.</Text>
                     </Flex>
                   )
                 ) : /** No walletNFTs and public key, means it is loading */
@@ -424,7 +424,7 @@ const StakePage = () => {
                             alignSelf: "stretch",
                           }}
                         >
-                          <Text>There are no NFTs in your vault.</Text>
+                          <Text>There are no NFTs on your vault.</Text>
                         </Flex>
                       )
                     ) : /** No vaultNFTs and public key, means it is loading */
