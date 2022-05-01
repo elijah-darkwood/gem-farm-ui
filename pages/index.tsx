@@ -50,8 +50,8 @@ const StakePage = () => {
           padding: "0 1.6rem",
         }}
       >
-        <Heading>Your staking account</Heading>
-        <Text>Below you can stake, unstake and collect rewards.</Text>
+        <Heading>Welcome to your staking account!</Heading>
+        <Text>You can move CryptoShards NFT's to a staking vault, then stake/unstake them and collect rewards in $CST and $SOL.</Text>
 
         {!publicKey ? (
           /** Render nothing if there is no wallet connected. */
@@ -304,7 +304,7 @@ const StakePage = () => {
                         alignSelf: "stretch",
                       }}
                     >
-                      <Text>There are no NFTs on your wallet.</Text>
+                      <Text>There are no NFTs in your wallet.</Text>
                     </Flex>
                   )
                 ) : /** No walletNFTs and public key, means it is loading */
