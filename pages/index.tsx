@@ -51,7 +51,7 @@ const StakePage = () => {
         }}
       >
         <Heading>Welcome to your staking account!</Heading>
-        <Text>You can move CryptoShards NFT's to a staking vault, then stake/unstake them and collect rewards in $CST and $SOL.</Text>
+        <Text>You can move CryptoShards NFT&apos;s to a staking vault, then stake/unstake them and collect rewards in $CST and $SOL.</Text>
 
         {!publicKey ? (
           /** Render nothing if there is no wallet connected. */
